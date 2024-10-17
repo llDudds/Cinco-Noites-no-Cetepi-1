@@ -3,7 +3,7 @@
 @media (max-width: 479px) {
   .section-one {
     height: 130vh;
-    padding: 0;
+    padding: 0 4%;
   }
 
   .section-two img {
@@ -13,7 +13,6 @@
 
   .section-two {
     height: 180vh;
-    width: 100vh;
   }
 
   .section-two .info__container {
@@ -64,7 +63,7 @@
 }
 
 /* Responsividade para tablets*/
-@media (min-width: 800px) and (max-width: 1280px) {
+@media (min-width: 768px) and (max-width: 1280px) {
   .section-one {
     height: 100vh;
     padding: 0 4%;
