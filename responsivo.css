@@ -13,6 +13,7 @@
 
   .section-two {
     height: 180vh;
+    width: 100vh;
   }
 
   .section-two .info__container {
