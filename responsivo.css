@@ -3,7 +3,7 @@
 @media (max-width: 479px) {
   .section-one {
     height: 130vh;
-    padding: 0 4%;
+    padding: 0;
   }
 
   .section-two img {
