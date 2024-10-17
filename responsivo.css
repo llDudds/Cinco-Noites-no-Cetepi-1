@@ -5,6 +5,10 @@
     height: 130vh;
   }
 
+  .section-one #background video {
+    width: 50vh;
+  }
+
   .section-two img {
     margin-bottom: 25vh;
     width: 350px;
