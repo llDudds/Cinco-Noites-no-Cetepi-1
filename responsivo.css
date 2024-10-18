@@ -1,12 +1,15 @@
 /* Autores: Ana Luisa Saraiva Teixeira Eduardo dos Santos Costa 3ºD */
 /* Responsividade para celulares*/
 @media (max-width: 479px) {
-    .section-one {
-      height: 130vh;
-      padding: 0 4%;
+    .body {
       overflow: hidden;
       overflow-x: hidden;
       overflow-y: hidden;
+    }
+  
+    .section-one {
+      height: 130vh;
+      padding: 0 4%;
     }
   
     .section-two img {
