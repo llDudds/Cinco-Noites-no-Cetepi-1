@@ -1,128 +1,131 @@
 /* Autores: Ana Luisa Saraiva Teixeira Eduardo dos Santos Costa 3ºD */
 /* Responsividade para celulares*/
-@media (max-width: 479px) {
-  .section-one {
-    height: 130vh;
+@media (max-width: 600px) {
+    .section-one {
+      height: 130vh;
+      padding: 0 4%;
+    }
+  
+    .section-two img {
+      margin-bottom: 25vh;
+      width: 350px;
+    }
+  
+    .section-two {
+      height: 220vh;
+    }
+  
+    .section-two .info__container {
+      flex-direction: column;
+    }
+  
+    .section-two .info__img {
+      margin: 0px 0px 0px;
+    }
+  
+    .section-three {
+      height: 200vh;
+    }
+  
+    .section-three .card__container {
+      gap: 30px;
+      padding: 0 4%;
+    }
+  
+    .section-three .modal__img {
+      height: 50vh;
+      width: 30vh;
+    }
+  
+    .section-four .s4-container {
+      width: 85vh;
+      padding: 0;
+      height: 60vh;
+    }
+  
+    .section-four {
+      height: 100vh;
+      padding: 0;
+    }
+  
+    .section-four .download {
+      width: 55vh;
+    }
+  
+    .section-four .baixe img {
+      width: 50vh;
+      padding: 0 4%;
+    }
+  
+    .section-four .baixe {
+      margin-top: 100px;
+      margin-bottom: 50px;
+    }
   }
-
-  .section-two img {
-    margin-bottom: 25vh;
-    width: 350px;
+  
+  /* Responsividade para tablets*/
+  @media (min-width: 768px) and (max-width: 1280px) {
+    .section-one {
+      height: 100vh;
+      padding: 0 4%;
+    }
+  
+    .section-two img {
+      margin-bottom: 25vh;
+      width: 450px;
+    }
+  
+    .section-two {
+      height: 140vh;
+    }
+  
+    .section-two .info__container {
+      flex-direction: column;
+    }
+  
+    .section-two .info__img {
+      margin: 0px 0px 0px;
+    }
+  
+    .section-three {
+      height: 70vh;
+    }
+  
+    .section-three .card__container {
+      gap: 30px;
+      padding: 0 4%;
+    }
+  
+    .section-three .modal__img {
+      height: 50vh;
+      width: 30vh;
+    }
+  
+    .section-four .s4-container {
+  
+      width: 60vh;
+    }
+  
+    .section-four {
+      height: 78vh;
+      padding: 0;
+    }
+  
+    .section-four .download {
+      width: 45vh;
+    }
+  
+    .section-four .baixe img {
+      width: 50vh;
+      padding: 0 4%;
+    }
+  
+    .section-four .baixe {
+      margin-top: 100px;
+      margin-bottom: 50px;
+    }
+  
+    .section-four .requisitos {
+      font-size: 18px;
+    }
   }
-
-  .section-two {
-    height: 180vh;
-  }
-
-  .section-two .info__container {
-    flex-direction: column;
-  }
-
-  .section-two .info__img {
-    margin: 0px 0px 0px;
-  }
-
-  .section-three {
-    height: 140vh;
-  }
-
-  .section-three .card__container {
-    gap: 30px;
-    padding: 0 4%;
-  }
-
-  .section-three .modal__img {
-    height: 50vh;
-    width: 30vh;
-  }
-
-  .section-four .s4-container {
-
-    width: 60vh;
-  }
-
-  .section-four {
-    height: 100vh;
-    padding: 0;
-  }
-
-  .section-four .download {
-    width: 45vh;
-  }
-
-  .section-four .baixe img {
-    width: 50vh;
-    padding: 0 4%;
-  }
-
-  .section-four .baixe {
-    margin-top: 100px;
-    margin-bottom: 50px;
-  }
-}
-
-/* Responsividade para tablets*/
-@media (min-width: 768px) and (max-width: 1280px) {
-  .section-one {
-    height: 100vh;
-  }
-
-  .section-two img {
-    margin-bottom: 25vh;
-    width: 450px;
-  }
-
-  .section-two {
-    height: 140vh;
-  }
-
-  .section-two .info__container {
-    flex-direction: column;
-  }
-
-  .section-two .info__img {
-    margin: 0px 0px 0px;
-  }
-
-  .section-three {
-    height: 70vh;
-  }
-
-  .section-three .card__container {
-    gap: 30px;
-    padding: 0 4%;
-  }
-
-  .section-three .modal__img {
-    height: 50vh;
-    width: 30vh;
-  }
-
-  .section-four .s4-container {
-
-    width: 60vh;
-  }
-
-  .section-four {
-    height: 78vh;
-    padding: 0;
-  }
-
-  .section-four .download {
-    width: 45vh;
-  }
-
-  .section-four .baixe img {
-    width: 50vh;
-    padding: 0 4%;
-  }
-
-  .section-four .baixe {
-    margin-top: 100px;
-    margin-bottom: 50px;
-  }
-
-  .section-four .requisitos {
-    font-size: 18px;
-  }
-}
