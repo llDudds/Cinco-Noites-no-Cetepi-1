@@ -751,6 +751,6 @@ body {
   background-size: cover;
 }
 
-body {
+html {
   overflow-x: hidden;
 }
