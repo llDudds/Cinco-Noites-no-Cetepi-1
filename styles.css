@@ -750,3 +750,7 @@ body {
   background-image: url(public/img/helpback.png);
   background-size: cover;
 }
+
+body {
+  overflow-x: hidden;
+}
