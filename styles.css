@@ -3,6 +3,7 @@ body {
   font-family: 'storm' karla;
   color: aliceblue;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 @font-face {
