@@ -2,6 +2,7 @@ body {
   font-family: 'karla' sans-serif;
   font-family: 'storm' karla;
   color: aliceblue;
+  overflow-x: hidden;
 }
 
 @font-face {
