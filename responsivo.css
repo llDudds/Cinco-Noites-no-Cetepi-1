@@ -65,6 +65,10 @@
 
 /* Responsividade para tablets*/
 @media (min-width: 480px) and (max-width: 1280px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  
   .section-one {
     height: 100vh;
     max-height: 100vh;
