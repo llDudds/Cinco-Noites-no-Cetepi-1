@@ -753,3 +753,7 @@ body {
   background-image: url(public/img/helback.png);
   background-size: cover;
 }
+
+body, html {
+  overflow-x: hidden;
+}
