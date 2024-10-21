@@ -71,6 +71,7 @@
     width: auto;
     max-width: 100%;
     padding: 0 4%;
+    overflow: hidden;
   }
   .section-two img {
     margin-bottom: 25vh;
@@ -80,6 +81,7 @@
     height: 1450px;
     width: auto;
     max-width: 100%;
+    overflow: hidden;
   }
   .section-two .info__container {
     flex-direction: column;
@@ -91,6 +93,7 @@
     height: 100vh;
     width: auto;
     max-width: 100%;
+    overflow: hidden;
   }
   .section-three .card__container {
     gap: 30px;
@@ -109,6 +112,7 @@
     width: auto;
     max-width: 100%;
     padding: 0;
+    overflow: hidden;
   }
   .section-four .download {
     width: auto;
