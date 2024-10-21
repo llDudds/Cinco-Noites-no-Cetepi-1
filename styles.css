@@ -2,6 +2,7 @@ body {
   font-family: 'karla' sans-serif;
   font-family: 'storm' karla;
   color: aliceblue;
+  background-color: black;
 }
 
 @font-face {
@@ -65,6 +66,7 @@ body {
 
 .section-three {
   font-family: 'karla', sans-serif;
+  overflow: hidden;
   overflow-y: hidden;
   overflow-x: hidden;
   background-color: rgb(0, 0, 0);
@@ -94,7 +96,7 @@ body {
   content: '';
   width: inherit;
   height: inherit;
-  position: fixed;
+  position: absolute;
   inset: 0;
   background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
 }
@@ -680,7 +682,7 @@ body {
   background-color: black;
   font-family: 'karla', sans-serif;
   display: flex;
-  height: 71vh;
+  height: 75vh;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -689,7 +691,8 @@ body {
 }
 
 .section-four .s4-container {
-  width: 140vh;
+  width: 1280px;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -697,8 +700,7 @@ body {
   justify-content: center;
   padding: 86px;
   background-color: rgb(104, 5, 5);
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
+  border-radius: 200px;
 }
 
 .section-four .download {
@@ -728,10 +730,11 @@ body {
 }
 
 .section-four .baixe-container img {
-  margin-bottom: 3vh;
+  margin-bottom: 0;
   text-align: center;
   justify-content: center;
   align-items: center;
+
 }
 
 .section-four .baixe {
@@ -747,10 +750,6 @@ body {
 }
 
 .section-four {
-  background-image: url(public/img/helpback.png);
+  background-image: url(public/img/helback.png);
   background-size: cover;
-}
-
-html, body {
-  overflow-x: hidden;
 }
