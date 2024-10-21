@@ -1,8 +1,14 @@
 /*Autores: Ana Luisa Saraiva Teixeira Eduardo dos Santos Costa 3ºD*/
 /* Responsividade para celulares*/
 @media (max-width: 479px) {
+  html, body {
+    overflow-x: hidden;
+  }
+
   .section-one {
-    height: 130vh;
+    overflow: hidden;
+    height: 1000px;
+    max-width: 1200px;
     padding: 0 4%;
   }
   .section-two img {
@@ -10,8 +16,11 @@
     width: 350px;
   }
   .section-two {
-    height: 180vh;
-    width: 50vh;
+    overflow: hidden;
+    height: auto;
+    max-height: 1400px;
+    width: auto;
+    max-width: 479px;
   }
   .section-two .info__container {
     flex-direction: column;
@@ -20,7 +29,9 @@
     margin: 0px 0px 0px;
   }
   .section-three {
-    height: 140vh;
+    overflow: hidden;
+    height: auto;
+    max-height: 1200px;
   }
   .section-three .card__container {
     gap: 30px;
@@ -31,74 +42,27 @@
     width: 30vh;
   }
   .section-four .s4-container {
-    width: 60vh;
+    width: 479px;
+    border-radius: 0px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
   }
   .section-four {
-    height: 100vh;
+    overflow: hidden;
+    height: auto;
+    max-height: 950px;
     padding: 0;
   }
   .section-four .download {
-    width: 45vh;
+    width: 350px;
+    max-width: 400px;
   }
   .section-four .baixe img {
-    width: 50vh;
-    padding: 0 4%;
-  }
-  .section-four .baixe {
-    margin-top: 100px;
-    margin-bottom: 50px;
+    width: 350px;
+    padding: 50px;
   }
 }
 
-/* Responsividade para celulares grandes */
-@media (max-width: 767px) {
-  .section-one {
-    height: 130vh;
-    padding: 0 4%;
-  }
-  .section-two img {
-    margin-bottom: 25vh;
-    width: 350px;
-  }
-  .section-two {
-    height: 180vh;
-  }
-  .section-two .info__container {
-    flex-direction: column;
-  }
-  .section-two .info__img {
-    margin: 0px 0px 0px;
-  }
-  .section-three {
-    height: 140vh;
-  }
-  .section-three .card__container {
-    gap: 30px;
-    padding: 0 4%;
-  }
-  .section-three .modal__img {
-    height: 50vh;
-    width: 30vh;
-  }
-  .section-four .s4-container {
-    width: 60vh;
-  }
-  .section-four {
-    height: 100vh;
-    padding: 0;
-  }
-  .section-four .download {
-    width: 45vh;
-  }
-  .section-four .baixe img {
-    width: 50vh;
-    padding: 0 4%;
-  }
-  .section-four .baixe {
-    margin-top: 100px;
-    margin-bottom: 50px;
-  }
-}
 /* Responsividade para tablets*/
 @media (min-width: 768px) and (max-width: 1280px) {
   .section-one {
@@ -110,7 +74,7 @@
     width: 450px;
   }
   .section-two {
-    height: 140vh;
+    height: 1280px;
   }
   .section-two .info__container {
     flex-direction: column;
@@ -119,7 +83,7 @@
     margin: 0px 0px 0px;
   }
   .section-three {
-    height: 70vh;
+    height: 130vh;
   }
   .section-three .card__container {
     gap: 30px;
@@ -130,22 +94,24 @@
     width: 30vh;
   }
   .section-four .s4-container {
-    width: 60vh;
+    width: 600px;
+    height: 500px;
   }
   .section-four {
-    height: 78vh;
+    height: 660px;
+    width: 768px;
+    max-width: 1280px;
     padding: 0;
   }
   .section-four .download {
-    width: 45vh;
+    width: 65vh;
   }
   .section-four .baixe img {
     width: 50vh;
     padding: 0 4%;
   }
   .section-four .baixe {
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 20px;
   }
   .section-four .requisitos {
     font-size: 18px;
