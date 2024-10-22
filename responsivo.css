@@ -11,6 +11,11 @@
     max-width: 1200px;
     padding: 0 4%;
   }
+  
+  .section-one p {
+    font-size: 18px;
+  }
+
   .section-two img {
     margin-bottom: 25vh;
     width: 350px;
@@ -65,10 +70,6 @@
 
 /* Responsividade para tablets*/
 @media (min-width: 480px) and (max-width: 1280px) {
-  html, body {
-    overflow-x: hidden;
-  }
-  
   .section-one {
     height: 100vh;
     max-height: 100vh;
@@ -77,6 +78,11 @@
     padding: 0 4%;
     overflow: hidden;
   }
+
+  .section-one p {
+    font-size: 18px;
+  }
+
   .section-two img {
     margin-bottom: 25vh;
     width: 450px;
@@ -111,6 +117,9 @@
   .section-four .s4-container {
     width: 600px;
     height: 500px;
+    border-radius: 0px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
   }
   .section-four {
     height: 660px;
